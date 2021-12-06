@@ -9,6 +9,7 @@ The shell script detects the current git repository as well as the current branc
 ## Quick Installation:
 - git clone https://github.com/declancm/git-commit-vim
 - cd git-commit-vim && ./install.sh
+If the installation process has been completed successfully, the downloaded directory can be removed if desired.
 
 ## Manual Installation
 - Add the commit.sh script to the directory at ' ~/ ' for vim, or ' ~/.config/nvim/ ' for neovim.
