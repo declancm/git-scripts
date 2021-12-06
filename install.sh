@@ -1,13 +1,25 @@
-printf "Do you want to install for vim or neovim?"
+printf "Do you want to install for vim or neovim? "
 read input
-if [ $input == 'vim' || $input == 'Vim' ]
+if [ "$input" = "vim" ] || [ "$input" = "Vim" ]
 then
-    cp ./git.sh ~/git-auto-commit/commit.sh
-    printf "nnoremap <leader>cp :!source ~/git-auto-commit/commit.sh<CR>" >> ~/.vimrc
-else if [$input == 'neovim' || $input == 'Neovim' || $input == 'nvim' ]
+    [ ! -d ~/auto-commit ] && mkdir -p ~/auto-commit && printf "The auto-commit directory was created.\n"
+    cp -f ./commit.sh ~/auto-commit/commit.sh
+    keymapvim="nnoremap <leader>cp :!source ~/auto-commit/commit.sh<CR>"
+    if grep -qF "$keymapvim" ~/.vimrc;then
+        printf "The keymap already exists in the .vimrc\n"
+    else
+        printf "$keymapvim" >> ~/.vimrc
+    fi
+elif [ "$input" = "neovim" ] || [ "$input" = "Neovim" ] || [ "$input" = "nvim" ]
 then
-    cp ./git.sh ~/.config/nvim/git-auto-commit/commit.sh
-    printf "nnoremap <leader>cp :!source ~/.config/nvim/git-auto-commit/commit.sh<CR>" >> ~/.config/nvim/init.vim
+    [ ! -d ~/.config/nvim/auto-commit ] && mkdir -p ~/.config/nvim/auto-commit && printf "The auto-commit directory was created.\n"
+    cp -f ./commit.sh ~/.config/nvim/git-auto-commit/commit.sh
+    keymapneovim="nnoremap <leader>cp :!source ~/.config/nvim/auto-commit/commit.sh<CR>"
+    if grep -qF "$keymapvim" ~/.config/nvim/init.vim;then
+        printf "They keymap already exists in the init.vim\n"
+    else
+        printf "$keymapneovim" >> ~/.config/nvim/init.vim
+    fi
 else
-    printf "You did not enter a valid option."
+    printf "\nYou did not enter a valid option.\n\n"
 fi
