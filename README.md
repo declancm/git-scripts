@@ -18,7 +18,6 @@ The shell script detects the current git repository as well as the current branc
 
 ## Instructions:
 Use \<leader\>cp within vim/neovim to:
-- save current file,
 - stage any non-ignored files that have been added to the repository,
 - generate a git commit with the current date and time in the message,
 - and git push the generated commit to the external git repository.
