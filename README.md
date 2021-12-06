@@ -23,9 +23,9 @@ If the installation process has been completed successfully, the downloaded dire
 ## Instructions:
 **For vim/neovim usage:**\
 Use **\<leader\>cp** within vim/neovim to:
-    - stage any non-ignored files that have been added to the repository,
-    - generate a git commit with the current date and time in the message,
-    - and git push the generated commit to the external git repository branch.
+- stage any non-ignored files that have been added to the repository,
+- generate a git commit with the current date and time in the message,
+- and git push the generated commit to the external git repository branch.
 
 **For terminal usage:**\
 From terminal, run **"source <path-to-commit.sh>"** to automatically generate a commit and push a git repository to the external repository. An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed) like so:
