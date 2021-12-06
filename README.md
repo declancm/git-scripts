@@ -24,4 +24,4 @@ If the installation process has been completed successfully, the downloaded dire
 - generate a git commit with the current date and time in the message,
 - and git push the generated commit to the external git repository branch.
 
-Run "source <path-to-commit.sh>" to automaticall commit and push a git repository to the external repository. A short path is recommended to minimize effort such as: ' ~/commit.sh ' or ' ./commit.sh '.
+From terminal, **run "source <path-to-commit.sh>"** to automaticall commit and push a git repository to the external repository. A short path is recommended to minimize effort such as: ' ~/commit.sh ' or ' ./commit.sh '.
