@@ -6,6 +6,10 @@ The shell script detects the current git repository as well as the current branc
 - git.
 - vim/neovim.
 
+## Quick Installation:
+git clone https://github.com/declancm/git-commit-vim
+cd git-commit-vim && ./install.sh
+
 ## Installation (vim):
 - Add the git.sh script to ' ~/. ' (This can be customized by changing the calling path in the keymap).
 - Add the vim keymap from keymap.vim to your .vimrc.
