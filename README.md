@@ -1,7 +1,7 @@
 # git-commit-vim
 A vim/neovim shell script and keymap for linux that allows for automatic git commiting and pushing to an external repo (that has already been initialized).
 
-# Dependencies:
+## Dependencies:
 - git
 - vim/neovim
 
