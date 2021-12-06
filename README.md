@@ -20,7 +20,7 @@ If the installation process has been completed successfully, the downloaded dire
 4. Add an external repository to your desired git directory (git remote add external \<repository URL\>).
 
 ## Instructions:
-_**Use \<leader\>cp**_ within vim/neovim to:
+<u>**Use \<leader\>cp**</u> within vim/neovim to:
 - stage any non-ignored files that have been added to the repository,
 - generate a git commit with the current date and time in the message,
 - and git push the generated commit to the external git repository branch.
