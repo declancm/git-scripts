@@ -17,7 +17,7 @@ A vim/neovim shell script and keymap for linux that allows for automatic git com
 
 ## Instructions:
 Use \<leader\>cp with vim/neovim to:
-- automatically save current file,
+- save current file,
 - stage any non-ignored files that have been added to the repository,
 - create a git commit with the current date and time in the message,
-- git pushing the generated commit to the external git repository.
+- and git push the generated commit to the external git repository.
