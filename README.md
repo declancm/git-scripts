@@ -16,4 +16,8 @@ A vim/neovim shell script and keymap for linux that allows for automatic git com
 - Initialize the external repo for your git repository.
 
 ## Instructions:
-- Use \<leader\>cp with vim/neovim to automatically save current file and add any created files to the cache, before committing and pushing to the external git repository.
+Use \<leader\>cp with vim/neovim to:
+- automatically save current file,
+- add any created files to the cache,
+- create a git commit with the current date and time in the message,
+- and then git pushing to the external git repository.
