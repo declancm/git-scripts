@@ -25,6 +25,6 @@ Use **\<leader\>cp** within vim/neovim to:
 - generate a git commit with the current date and time in the message,
 - and git push the generated commit to the external git repository branch.
 
-From terminal, run **"source <path-to-commit.sh>"** to automatically commit and push a git repository to the external repository. An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed), where the script has been placed in ' ~/auto-commit/commit.sh ':
+From terminal, run **"source <path-to-commit.sh>"** to automatically generate a commit and push a git repository to the external repository. An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed), where the script has been placed in ' ~/auto-commit/commit.sh ', and 'acommit' can be whatever alias you like:
 
 alias acommit='source ~/auto-commit/commit.sh'
