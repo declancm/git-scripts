@@ -1,10 +1,10 @@
 # git-commit-vim
 A vim/neovim shell script and keymap for linux that allows for automatic git commiting and pushing to an external repository (that has already been initialized).
-The shell script detects the current git repository as well as the current branch, and pushes to the external repository 'origin' branch of the same name.
+The shell script detects the current git repository as well as the current branch, and pushes to the 'origin' external repository branch of the same name.
 
 ## Dependencies:
-- git
-- vim/neovim
+- git.
+- vim/neovim.
 
 ## Installation (vim):
 - Add the git.sh script to ' ~/. ' . This can be customized by changing the calling path in the keymap.
