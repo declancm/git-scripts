@@ -12,12 +12,12 @@ The shell script detects the current git repository as well as the current branc
 
 ## Manual Installation (vim):
 - Add the git.sh script to ' ~/. ' (This can be customized by changing the calling path in the keymap).
-- Add the vim keymap from keymap.vim to your .vimrc.
+- Add the vim keymap from keymap.vim to your .vimrc (at ~/.vimrc). If the file does not exist, create it.
 - Initialize the external repo for your git repository.
 
 ## Manual Installation (nvim):
 - Add the git.sh script to ' ~/.config/nvim/. ' (This can be customized by changing the calling path in the keymap).
-- Add the neovim keymap from keymap.vim to init.vim.
+- Add the neovim keymap from keymap.vim to your init.vim (at ~/.config/nvim/init.vim). If the file does not exist, create it.
 - Initialize the external repo for your git repository.
 
 ## Instructions:
