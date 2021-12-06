@@ -2,7 +2,7 @@
 A shell script __**for linux**__ that allows for automatic git commit generation and pushing to an external repository, that can be run inside vim/neovim with a keymap.
 The shell script detects the current git repository as well as the current branch, and pushes to the 'origin' external repository branch of the same name.
 
-If you don't use vim/neovim, the shell script can just be run from terminal.
+If you don't use vim/neovim, the shell script can just be run from terminal, with the same effect.
 
 ## Dependencies:
 - git
