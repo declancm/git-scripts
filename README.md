@@ -10,6 +10,7 @@ If you don't use vim/neovim, the shell script can just be run from terminal, wit
 ## Quick Installation:
 1. git clone https://github.com/declancm/git-commit-vim
 2. cd git-commit-vim && ./install.sh
+3. Add an external repository to your desired git directory (git remote add external \<repository URL\>).
 
 If the installation process has been completed successfully, the downloaded directory can be removed if desired.
 
