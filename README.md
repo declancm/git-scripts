@@ -6,7 +6,7 @@ A shell script **for linux**, that can be run within vim/neovim with a keymap, w
 
 The script detects the current git repository, the current branch and the name of the remote repository, then pushes to the remote repository with the branch of the same name.
 
-If you don't use vim/neovim, just the commit.sh script is needed which can be run within terminal with the same *great* result.
+If you don't use vim/neovim, only the commit.sh script is needed which can be run within terminal.
 
 ## Dependencies:
 - git
