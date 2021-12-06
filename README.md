@@ -1,5 +1,5 @@
 # git-commit-vim
-A shell script **for linux** that allows for automatic git commit generation and pushing to an external repository, that can be run inside vim/neovim with a keymap.
+A shell script __**for linux**__ that allows for automatic git commit generation and pushing to an external repository, that can be run inside vim/neovim with a keymap.
 The shell script detects the current git repository as well as the current branch, and pushes to the 'origin' external repository branch of the same name.
 
 If you don't use vim/neovim, the shell script can just be run from terminal.
@@ -19,9 +19,9 @@ If the installation process has been completed successfully, the downloaded dire
 4. Add an external repository to your desired git directory (git remote add external \<repository URL\>).
 
 ## Instructions:
-**Use \<leader\>cp** within vim/neovim to:
+__**Use \<leader\>cp**__ within vim/neovim to:
 - stage any non-ignored files that have been added to the repository,
 - generate a git commit with the current date and time in the message,
 - and git push the generated commit to the external git repository branch.
 
-From terminal, **run "source <path-to-commit.sh>"** to automaticall commit and push a git repository to the external repository. A short path is recommended to minimize effort such as: ' ~/commit.sh ' or ' ./commit.sh '.
+From terminal, __**run "source <path-to-commit.sh>"**__ to automaticall commit and push a git repository to the external repository. A short path is recommended to minimize effort such as: ' ~/commit.sh ' or ' ./commit.sh '.
