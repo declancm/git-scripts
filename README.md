@@ -4,7 +4,6 @@ A vim/neovim shell script and keymap that allows for automatic git commiting and
 # Dependencies:
 - git
 - vim or neovim
-- test
 
 ## Installation:
 - Add the git.sh script to ~/. for vim and to ~/.config/nvim/. for neovim. This can be customized by changing the calling path in the keymap.
