@@ -10,18 +10,14 @@ The shell script detects the current git repository as well as the current branc
 - git clone https://github.com/declancm/git-commit-vim
 - cd git-commit-vim && ./install.sh
 
-## Manual Installation (vim):
-- Add the git.sh script to ' ~/. ' (This can be customized by changing the calling path in the keymap).
-- Add the vim keymap from keymap.vim to your .vimrc (at ~/.vimrc). If the file does not exist, create it.
-- Initialize the external repo for your git repository.
-
-## Manual Installation (nvim):
-- Add the git.sh script to ' ~/.config/nvim/. ' (This can be customized by changing the calling path in the keymap).
-- Add the neovim keymap from keymap.vim to your init.vim (at ~/.config/nvim/init.vim). If the file does not exist, create it.
-- Initialize the external repo for your git repository.
+## Manual Installation
+- Add the commit.sh script to the directory at ' ~/ ' for vim, or ' ~/.config/nvim/ ' for neovim.
+- For vim, add the first keymap from the keymap.vim file to your .vimrc at ' ~/.vimrc '.
+- For neovim, add the second keymap from the keymap.vim file to your init.vim at ' ~/.config/nvim/init.vim '.
+- Add an external repository to your desired git directory (git remote add external \<repository URL\>).
 
 ## Instructions:
-Use \<leader\>cp within vim/neovim to:
+**Use \<leader\>cp** within vim/neovim to:
 - stage any non-ignored files that have been added to the repository,
 - generate a git commit with the current date and time in the message,
-- and git push the generated commit to the external git repository.
+- and git push the generated commit to the external git repository branch.
