@@ -15,7 +15,7 @@ then
     [ ! -d ~/.config/nvim/auto-commit ] && mkdir -p ~/.config/nvim/auto-commit && printf "The auto-commit directory was created.\n"
     cp -f ./commit.sh ~/.config/nvim/git-auto-commit/commit.sh
     keymapneovim="nnoremap <leader>cp :!source ~/.config/nvim/auto-commit/commit.sh<CR>"
-    if grep -qF "$keymapvim" ~/.config/nvim/init.vim;then
+    if grep -qF "$keymapneovim" ~/.config/nvim/init.vim;then
         printf "They keymap already exists in the init.vim\n"
     else
         printf "$keymapneovim" >> ~/.config/nvim/init.vim
