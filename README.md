@@ -33,6 +33,6 @@ Use **\<leader\>cp** within vim/neovim to commit and push.
 
 From terminal, run **"source <path-to-commit.sh>"** to manually run the shell script. An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed) like so:
 
-  - alias commit='source ~/auto-commit/commit.sh'
+    - alias commit='source ~/auto-commit/commit.sh'
 
 After adding the alias, enter 'commit' within the terminal to run the script.
