@@ -21,15 +21,17 @@ If you don't use vim/neovim, only the commit.sh script is needed which can be ru
 
        . ~/git-auto-commit/install.sh
 
-3. Make sure you have added an external repository to your desired git directory
+3. Make sure you have added an external repository to your desired git directory:
 
-https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories.
+https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
 
 ## Manual Installation:
 1. Add the commit.sh script to your desired directory.
 2. For vim, add the keymap from the keymap.vim file to your .vimrc at ' ~/.vimrc '. The path to the commit.sh script will need to be adjusted to match where you added the commit.sh file.
 3. For neovim, add the keymap from the keymap.vim file to your init.vim at ' ~/.config/nvim/init.vim '. The path to the commit.sh script will need to be adjusted to match where you added the commit.sh file.
-4. Make sure you have added an external repository to your desired git directory (https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
+4. Make sure you have added an external repository to your desired git directory:
+
+https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
 
 ## Instructions:
 - **For vim/neovim usage:**
