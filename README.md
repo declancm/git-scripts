@@ -21,7 +21,9 @@ If you don't use vim/neovim, only the commit.sh script is needed which can be ru
 
        . ~/git-auto-commit/install.sh
 
-3. Make sure you have added an external repository to your desired git directory (https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
+3. Make sure you have added an external repository to your desired git directory
+
+https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories.
 
 ## Manual Installation:
 1. Add the commit.sh script to your desired directory.
