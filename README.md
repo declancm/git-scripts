@@ -6,7 +6,7 @@ A shell script **for linux**, that can be run within vim/neovim with a keymap, w
 
 The script detects the current git repository, the current branch and the name of the remote repository, then pushes to the remote repository with the branch of the same name.
 
-If you don't use vim/neovim, only the commit.sh script is needed which can be run within terminal.
+If you don't use vim/neovim, only the commit.sh script is needed which can be run in terminal.
 
 ## Dependencies:
 - git
@@ -14,22 +14,20 @@ If you don't use vim/neovim, only the commit.sh script is needed which can be ru
 ## Quick Installation:
 1. git clone https://github.com/declancm/git-commit-vim
 2. cd git-commit-vim && ./install.sh
-3. Add an external repository to your desired git directory (https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
+3. Make sure you have added an external repository to your desired git directory (https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
 
 If the installation process has been completed successfully, the downloaded directory can be removed if desired.
 
 ## Manual Installation:
-1. Add the commit.sh script to the directory at ' ~/ ' for vim, or ' ~/.config/nvim/ ' for neovim.
+1. Add the commit.sh script to the directory at ' ~/auto-commit/ ' for vim, or ' ~/.config/nvim/auto-commit/ ' for neovim.
 2. For vim, add the first keymap from the keymap.vim file to your .vimrc at ' ~/.vimrc '.
 3. For neovim, add the second keymap from the keymap.vim file to your init.vim at ' ~/.config/nvim/init.vim '.
-4. Add an external repository to your desired git directory (git remote add external \<repository URL\>).
+4. Make sure you have added an external repository to your desired git directory (https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
 
 ## Instructions:
 **For vim/neovim usage:**\
-Use **\<leader\>cp** within vim/neovim to run the shell script.
-
+Use **\<leader\>cp** within vim/neovim to commit and push.
 
 **For terminal usage:**\
-From terminal, run **"source <path-to-commit.sh>"** to manually run the shell script. An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed) like so:
-
+From terminal, run **"source <path-to-commit.sh>"** to manually run the shell script. An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed) like so:\
 alias acommit='source ~/auto-commit/commit.sh'
