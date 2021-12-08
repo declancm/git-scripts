@@ -13,9 +13,13 @@ If you don't use vim/neovim, only the commit.sh script is needed which can be ru
 
 ## Quick Installation:
 1. Clone the diretory into your desired location:
+
     git clone https://github.com/declancm/git-commit-vim
-2. Run the installation script:
+
+1. Run the installation script:
+
     cd git-commit-vim && ./install.sh
+
 3. Make sure you have added an external repository to your desired git directory (https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
 
 If the installation process has been completed successfully, the downloaded directory can be removed if desired.
