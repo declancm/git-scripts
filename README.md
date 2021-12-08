@@ -26,10 +26,10 @@ If the installation process has been completed successfully, the downloaded dire
 
 ## Instructions:
 - **For vim/neovim usage:**\
-Use **\<leader\>cp** within vim/neovim to commit and push.
+  Use **\<leader\>cp** within vim/neovim to commit and push.
 
 - **For terminal usage:**\
-From terminal, run **"source <path-to-commit.sh>"** to manually run the shell script. An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed) like so:
+  From terminal, run **"source <path-to-commit.sh>"** to manually run the shell script. An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed) like so:
 
   - alias commit='source ~/auto-commit/commit.sh'
 
