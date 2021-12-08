@@ -25,12 +25,14 @@ If the installation process has been completed successfully, the downloaded dire
 4. Make sure you have added an external repository to your desired git directory (https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
 
 ## Instructions:
-- **For vim/neovim usage:**\
-  Use **\<leader\>cp** within vim/neovim to commit and push.
+- **For vim/neovim usage:**
 
-- **For terminal usage:**\
-  From terminal, run **"source <path-to-commit.sh>"** to manually run the shell script. An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed) like so:
+Use **\<leader\>cp** within vim/neovim to commit and push.
+
+- **For terminal usage:**
+
+From terminal, run **"source <path-to-commit.sh>"** to manually run the shell script. An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed) like so:
 
   - alias commit='source ~/auto-commit/commit.sh'
 
-  After adding the alias, enter 'commit' within the terminal to run the script.
+After adding the alias, enter 'commit' within the terminal to run the script.
