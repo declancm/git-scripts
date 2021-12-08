@@ -14,12 +14,12 @@ If you don't use vim/neovim, only the commit.sh script is needed which can be ru
 ## Quick Installation:
 1. Clone the diretory into your desired location:
 
-    git clone https://github.com/declancm/git-auto-commit.git ~/git-auto-commit
+       git clone https://github.com/declancm/git-auto-commit.git ~/git-auto-commit
 
 
-1. Run the installation script:
+2. Run the installation script:
 
-       cd git-commit-vim && ./install.sh
+       . ~/git-auto-commit/install.sh
 
 3. Make sure you have added an external repository to your desired git directory (https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
 
