@@ -17,7 +17,7 @@ If you don't use vim/neovim, only the commit.sh script is needed which can be ru
        git clone https://github.com/declancm/git-auto-commit.git ~/git-auto-commit
 
 
-2. Run the installation script:
+2. Run the installation script to install the keymap:
 
        . ~/git-auto-commit/install.sh
 
@@ -27,9 +27,10 @@ https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-
 
 ## Manual Installation:
 1. Add the commit.sh script to your desired directory.
-2. For vim, add the keymap from the keymap.vim file to your .vimrc at ' ~/.vimrc '. The path to the commit.sh script will need to be adjusted to match where you added the commit.sh file.
-3. For neovim, add the keymap from the keymap.vim file to your init.vim at ' ~/.config/nvim/init.vim '. The path to the commit.sh script will need to be adjusted to match where you added the commit.sh file.
-4. Make sure you have added an external repository to your desired git directory:
+2. Install the keymap:
+    - For vim, add the keymap from the keymap.vim file to your .vimrc at ' ~/.vimrc '. The path to the commit.sh script will need to be adjusted to match where you added the commit.sh file.
+    - For neovim, add the keymap from the keymap.vim file to your init.vim at ' ~/.config/nvim/init.vim '. The path to the commit.sh script will need to be adjusted to match where you added the commit.sh file.
+3. Make sure you have added an external repository to your desired git directory:
 
 https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
 
