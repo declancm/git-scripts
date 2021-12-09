@@ -42,7 +42,7 @@ Use **\<leader\>cp** within vim/neovim to commit and push.
 
 From terminal, manually run the shell script:
 
-    source = <path-to-commit.sh>
+    source <path-to-commit.sh>
 
 An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed) like so:
 
