@@ -36,11 +36,11 @@ https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-
 
 ## Instructions:
 
-###For vim/neovim usage:
+### For vim/neovim usage:
 
 Use **\<leader\>cp** within vim/neovim to commit and push.
 
-###For terminal usage:
+### For terminal usage:
 
 From terminal, manually run the shell script:
 
