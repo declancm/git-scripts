@@ -7,16 +7,16 @@ then
         printf "The keymap is already sourced in the .vimrc\n"
     else
         printf "\n$keymap\n" >> ~/.vimrc
+        printf "The keymap.vim was added for vim. Please source your .vimrc.\n"
     fi
-    printf "The keymap.vim was installed for vim. Please source your .vimrc.\n"
 elif [ "$input" = "neovim" ] || [ "$input" = "Neovim" ] || [ "$input" = "nvim" ]
 then
     if grep -qF "$keymap" ~/.config/nvim/init.vim;then
         printf "They keymap is already sourced in the init.vim\n"
     else
         printf "\n$keymap\n" >> ~/.config/nvim/init.vim
+        printf "The keymap.vim was added for neovim. Please source your init.vim.\n"
     fi
-    printf "The keymap.vim was installed for neovim. Please source your init.vim.\n"
 else
     printf "You did not enter a valid option.\n"
 fi
