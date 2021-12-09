@@ -41,11 +41,11 @@ Use **\<leader\>cp** within vim/neovim to commit and push.
 
 - **For terminal usage:**
 
-From terminal, manually run the shell script:
+  From terminal, manually run the shell script:
 
     source <path-to-commit.sh>
 
-An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed) like so:
+  An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed) like so:
 
     alias commit='source ~/git-auto-commit/commit.sh'
 
