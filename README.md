@@ -28,8 +28,8 @@ https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-
 ## Manual Installation:
 1. Add the commit.sh script to your desired directory.
 2. Install the keymap:
-    - For vim, add the keymap from the keymap.vim file to your .vimrc at ' ~/.vimrc '. The path to the commit.sh script will need to be adjusted to match where you added the commit.sh file.
-    - For neovim, add the keymap from the keymap.vim file to your init.vim at ' ~/.config/nvim/init.vim '. The path to the commit.sh script will need to be adjusted to match where you added the commit.sh file.
+  - For vim, add the keymap from the keymap.vim file to your .vimrc at ' ~/.vimrc '. The path to the commit.sh script will need to be adjusted to match where you added the commit.sh file.
+  - For neovim, add the keymap from the keymap.vim file to your init.vim at ' ~/.config/nvim/init.vim '. The path to the commit.sh script will need to be adjusted to match where you added the commit.sh file.
 3. Make sure you have added an external repository to your desired git directory:
 
 https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
