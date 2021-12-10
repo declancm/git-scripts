@@ -14,12 +14,11 @@ If you don't use vim/neovim, only the commit.sh script is needed which can be ru
 ## Quick Installation:
 1. Clone the diretory:
 
-       git clone https://github.com/declancm/git-auto-commit.git ~/git-auto-commit
-
+       git clone https://github.com/declancm/git-commit-kit.git ~/git-commit-kit
 
 2. Run the installation script to install the keymap:
 
-       . ~/git-auto-commit/install.sh
+       . ~/git-commit-kit/install.sh
 
 3. Make sure you have added an external repository to your desired git directory:
 
@@ -44,10 +43,10 @@ Use **\<leader\>cp** within vim/neovim to commit and push.
 
 From terminal, manually run the shell script:
 
-    source <path-to-commit.sh>
+    source ~/git-commit-kit/commit.sh
 
 An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is installed) like so:
 
-    alias commit='source ~/git-auto-commit/commit.sh'
+    alias commit='source ~/git-commit-kit/commit.sh'
 
 After adding the alias, enter 'commit' within the terminal to run the script.
