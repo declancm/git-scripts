@@ -1,4 +1,4 @@
-# git-auto-comit
+# git-commit-kit
 A shell script **for linux**, that can be run within vim/neovim with a keymap, which will:
 - stage any non-ignored files that have been added to the current repository,
 - generate a git commit with the current date and time in the message,
