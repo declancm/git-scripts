@@ -1,6 +1,6 @@
 printf "Do you want to install for vim or neovim? "
 read input
-keymap="source \$HOME/git-auto-commit/keymap.vim"
+keymap="source \$HOME/git-commit-kit/keymap.vim"
 if [ "$input" = "vim" ] || [ "$input" = "Vim" ]
 then
     if grep -qF "$keymap" ~/.vimrc;then

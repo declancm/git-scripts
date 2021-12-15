@@ -1,5 +1,5 @@
 # git-commit-kit
-A shell script **for linux**, that can be run within vim/neovim with a keymap, which will:
+A shell script that uses **bash**, that can be run within vim/neovim with a keymap, which will:
 - stage any non-ignored files that have been added to the current repository,
 - generate a git commit with the current date and time in the message,
 - and git push the generated commit to the external git repository branch.
@@ -20,7 +20,7 @@ If you don't use vim/neovim, the script can be run from terminal with the same r
 
        . ~/git-commit-kit/install.sh
 
-3. Make sure you have added an external repository to your desired git directory:
+3. Make sure you have added a remote repository to your desired git directory:
 
 https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
 

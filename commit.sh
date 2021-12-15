@@ -1,7 +1,7 @@
 # Created by Declan Mullen
-# Git repository can be found at git://github.com/declancm/git-auto-commit
+# Git repository can be found at git://github.com/declancm/git-commit-kit
 
-#!/usr/bin/env bash
+#!/bin/bash
 
 if git rev-parse --git-dir > /dev/null 2>&1; then
     branch=$(git rev-parse --abbrev-ref HEAD)

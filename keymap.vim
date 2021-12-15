@@ -1,1 +1,1 @@
-nnoremap <silent> <leader>cp :!source ~/git-auto-commit/commit.sh<CR>
+nnoremap <silent> <leader>cp :!source ~/git-commit-kit/commit.sh<CR>
