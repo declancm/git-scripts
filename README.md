@@ -1,5 +1,7 @@
 # git-commit-script
 
+_Note: Currently working on adding a script for PowerShell._
+
 A shell script that uses **bash**, that can be run within vim/neovim with a\
 keymap, which will:
 
