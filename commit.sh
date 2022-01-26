@@ -1,5 +1,5 @@
 # Created by Declan Mullen
-# Git repository can be found at: https://github.com/declancm/git-commit-kit
+# Git repository can be found at: https://github.com/declancm/git-commit-script
 
 #!/bin/bash
 

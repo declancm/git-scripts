@@ -1,3 +1,8 @@
+# Created by Declan Mullen
+# Git repository can be found at: https://github.com/declancm/git-commit-script
+
+#!/bin/bash
+
 printf "Do you want to install for vim or neovim? "
 read input
 keymap="source \$HOME/git-commit-kit/keymap.vim"

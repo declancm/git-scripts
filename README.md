@@ -1,6 +1,6 @@
 # git-commit-script
 
-A shell script that uses **bash**, that can be run within vim/neovim with a\
+A shell script that uses **Bash**, that can be run within vim/neovim with a\
 keymap, which will:
 
 - stage any non-ignored files that have been added to the current repository,
@@ -16,19 +16,30 @@ results.
 
 ## Dependencies
 
+- Bash
 - git
 
 ## Quick Installation
 
-1. Clone the diretory:
+1. Clone the directory:
 
-       git clone https://github.com/declancm/git-commit-script.git ~/git-commit-script
+    ```Bash
+    git clone https://github.com/declancm/git-commit-script.git ~/git-commit-script
+    ```
 
-2. Run the installation script to install the keymap:
+2. Ensure the scripts executable:
 
-       . ~/git-commit-script/install.sh
+    ```Bash
+    chmod +x ~/git-commit-script/commit.sh ~/git-commit-script/install.sh
+    ```
 
-3. Make sure you have added a remote repository to your desired git directory:
+3. Run the installation script to install the keymap:
+
+    ```Bash
+    . ~/git-commit-script/install.sh
+    ```
+
+4. Make sure you have added a remote repository to your desired git directory:
 
 <https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories>
 
@@ -50,17 +61,21 @@ results.
 
 ### For vim/neovim usage
 
-Use **\<leader\>cp** within vim/neovim to commit and push.
+Use `\<leader\>cp` within vim/neovim to commit and push.
 
 ### For terminal usage
 
 From terminal, manually run the shell script:
 
-    source ~/git-commit-script/commit.sh
+```Bash
+source ~/git-commit-script/commit.sh
+```
 
 An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is\
 installed) like so:
 
-    alias commit='source ~/git-commit-script/commit.sh'
+```Bash
+alias commit='source ~/git-commit-script/commit.sh'
+```
 
-After adding the alias, enter 'commit' within the terminal to run the script.
+After adding the alias, enter `commit` within the terminal to run the script.
