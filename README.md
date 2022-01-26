@@ -41,7 +41,7 @@ results.
 
 4. Make sure you have added a remote repository to your desired git directory:
 
-<https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories>
+    <https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories>
 
 ## Manual Installation
 
@@ -55,7 +55,7 @@ results.
       be adjusted to match where you added the commit.sh file.
 3. Make sure you have added an external repository to your desired git directory:
 
-<https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories>
+    <https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories>
 
 ## Instructions
 
