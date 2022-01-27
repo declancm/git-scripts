@@ -61,7 +61,7 @@ results.
 
 ### For vim/neovim usage
 
-Use `\<leader\>cp` within vim/neovim to commit and push.
+Use `<leader>cp` within vim/neovim to commit and push.
 
 ### For terminal usage
 
