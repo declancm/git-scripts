@@ -1,6 +1,11 @@
 # git-commit-script
 
-Shell scripts that use **Bash**, that greatly increase efficiency when using Git.\
+Bash shell scripts to make life easier when using Git.
+
+The scripts allow for:
+
+- automated git commit and push,
+- automated git pull.
 
 ## The Scripts
 
