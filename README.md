@@ -37,6 +37,14 @@ Shell scripts that use **Bash**, that greatly increase efficiency when using Git
 
     <https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories>
 
+4. Aliases can be created within ' ~/.bashrc ' (or ' ~/.zshrc ' for ZSH as long as\
+   bash is installed) like so:
+
+   ```Bash
+   alias commit='source ~/git-scripts/commit.sh'
+   alias pull='source ~/git-scripts/pull.sh'
+   ```
+
 ## Instructions
 
 ### For Terminal Usage
@@ -48,15 +56,8 @@ source ~/git-scripts/commit.sh
 source ~/git-scripts/pull.sh
 ```
 
-Aliases can be created within ' ~/.bashrc ' (or ' .zshrc ' for ZSH as long as bash\
-is installed) like so:
-
-```Bash
-alias commit='source ~/git-scripts/commit.sh'
-alias pull='source ~/git-scripts/pull.sh'
-```
-
-After adding the alias, enter `commit` or `pull` within the terminal to run a script.
+Or if the aliases have been created, enter `commit` or `pull` within the terminal\
+to run a script.
 
 ### For Vim/Neovim
 
