@@ -15,9 +15,17 @@ The scripts allow for:
   of the remote repository, then pushes to the remote repository with the branch\
   of the same name.
 
+### commit-silent.sh
+
+- A silent version of 'commit.sh' which only gives an output if an error occurs.
+
 ### pull.sh
 
 - Git pull from your remote repository for your current branch.
+
+### pull-silent.sh
+
+- A silent version of 'pull.sh' which only gives an output if an error occurs.
 
 ## Dependencies
 
