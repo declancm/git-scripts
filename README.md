@@ -1,81 +1,68 @@
 # git-commit-script
 
-A shell script that uses **Bash**, that can be run within vim/neovim with a\
-keymap, which will:
+Shell scripts that use **Bash**, that greatly increase efficiency when using Git.\
 
-- stage any non-ignored files that have been added to the current repository,
-- generate a git commit with the current date and time in the message,
-- and git push the generated commit to the external git repository branch.
+## The Scripts
 
-The script detects the current git repository, the current branch and the name\
-of the remote repository, then pushes to the remote repository with the branch\
-of the same name.
+### commit.sh
 
-If you don't use vim/neovim, the script can be run from terminal with the same\
-results.
+- The script detects the current git repository, the current branch and the name\
+  of the remote repository, then pushes to the remote repository with the branch\
+  of the same name.
+
+### pull.sh
+
+- Git pull from your remote repository for your current branch.
 
 ## Dependencies
 
 - Bash
 - git
 
-## Quick Installation
+## Installation
 
 1. Clone the directory:
 
     ```Bash
-    git clone https://github.com/declancm/git-commit-script.git ~/git-commit-script
+    git clone https://github.com/declancm/git-scripts.git ~/git-scripts
     ```
 
 2. Ensure the scripts executable:
 
     ```Bash
-    chmod +x ~/git-commit-script/commit.sh ~/git-commit-script/install.sh
+    chmod +x ~/git-scripts/*.sh
     ```
 
-3. Run the installation script to install the keymap:
-
-    ```Bash
-    . ~/git-commit-script/install.sh
-    ```
-
-4. Make sure you have added a remote repository to your desired git directory:
-
-    <https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories>
-
-## Manual Installation
-
-1. Add the commit.sh script to your desired directory.
-2. Install the keymap:
-    - For vim, add the keymap from the keymap.vim file to your .vimrc at\
-      ' ~/.vimrc '. The path to the commit.sh script will need to be adjusted to\
-      match where you added the commit.sh file.
-    - For neovim, add the keymap from the keymap.vim file to your init.vim at\
-      ' ~/.config/nvim/init.vim '. The path to the commit.sh script will need to\
-      be adjusted to match where you added the commit.sh file.
-3. Make sure you have added an external repository to your desired git directory:
+3. Make sure you have added a remote repository to your desired git directory:
 
     <https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories>
 
 ## Instructions
 
-### For vim/neovim usage
+### For Terminal Usage
 
-Use `\<leader\>cp` within vim/neovim to commit and push.
-
-### For terminal usage
-
-From terminal, manually run the shell script:
+From terminal, manually run the shell scripts:
 
 ```Bash
-source ~/git-commit-script/commit.sh
+source ~/git-scripts/commit.sh
+source ~/git-scripts/pull.sh
 ```
 
-An alias can be created within ' ~/.bashrc ' (or zsh etc. as long as bash is\
-installed) like so:
+Aliases can be created within ' ~/.bashrc ' (or ' .zshrc ' for ZSH as long as bash\
+is installed) like so:
 
 ```Bash
-alias commit='source ~/git-commit-script/commit.sh'
+alias commit='source ~/git-scripts/commit.sh'
+alias pull='source ~/git-scripts/pull.sh'
 ```
 
-After adding the alias, enter `commit` within the terminal to run the script.
+After adding the alias, enter `commit` or `pull` within the terminal to run a script.
+
+### For Vim/Neovim
+
+The same scripts can be used for vim/neovim:
+
+```vim
+nnoremap <silent> <leader>gc :!source ~/git-scripts/commit.sh<CR>
+nnoremap <silent> <leader>gp :!source ~/git-scripts/pull.sh<CR>
+```
