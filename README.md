@@ -1,4 +1,4 @@
-# git-commit-script
+# git-scripts
 
 Bash shell scripts to make life easier when using Git.
 
