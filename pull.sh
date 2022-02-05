@@ -9,7 +9,7 @@ if git rev-parse --git-dir > /dev/null 2>&1; then
     cd $gitDirectory
     remote=$(git remote)
     git pull $remote $branch
-    cd -
+    cd $OLDPWD
 else
     printf "You are not inside a git repository."
 fi
