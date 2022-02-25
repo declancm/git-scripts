@@ -69,8 +69,15 @@ source ~/git-scripts/commit.sh
 source ~/git-scripts/pull.sh
 ```
 
-Or if the aliases have been created, enter `commit` or `pull` within the terminal\
-to run a script.
+A string can be supplied as an argument to create a custom commit message.
+
+```Bash
+source ~/git-scripts/commit.sh "example commit message"
+source ~/git-scripts/pull.sh "example commit message"
+```
+
+To get the most benefit from these scripts, create an alias in your .bashrc (or\
+.zshrc etc.)
 
 ### For Vim/Neovim
 
